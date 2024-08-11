@@ -3,66 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio </title>
+    <title>Basic_Calculator</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Arya Shukla</h1>
-        <p>Web developer</p>
-        <img src="A logo.jpg" width="80" height="" alt="My logo">
-    </header>
-
-<section id="about">
-    <img src="Arya.jpg"width="200" height="250" alt="Your Image">
-    <h2>About Me</h2>
-    <h2>Bio</h2>
-</section>
-
-<section id="skills">
-      <h2> My Skills</h2>
-      <ul class="skill-list">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-      </ul>
-</section>
-
-<section id="projects">
-      <h2>Projects</h2>
-      <div id="wrapper">
-      <div class="project">
-      <h3>Tribute Page</h3>
-      <a href="Linus Torval.html"><img src="image.jpg/Linus torvalds.jpeg" alt="Tribute Page to Linus Torvalds">
-      </a>
-      <p><em>The Creator Of Linux </em></p>
-      </div>  
-            <div class="project">
-                <h3>Image Gallery</h3>
-      <a href="Image gallery.html"><img src="image.jpg/image12.jpg"alt="My Gallery"></a>
-        <p></p>
+        <div class="calculator">
+            <input type="text" value="0" class="display" disabled>
+               <div class="buttons">
+                    <button class="number">7</button>
+                    <button class="number">8</button>
+                    <button class="number">9</button>
+                    <button class="operator">/</button>
+                    <button class="number">4</button>
+                    <button class="number">5</button>
+                    <button class="number">6</button>
+                    <button class="operator">*</button>
+                    <button class="number">1</button> 
+            
+                    <button class="number">2</button>
+                    <button class="number">3</button>
+                    <button class="operator">-</button>
+                    <button class="clear">C</button> 
+            
+                    <button class="number">0</button>
+                    <button class="decimal">.</button>
+                    <button class="operator">+</button>
+                    <button class="equal">=</button>
+                 </div>
         </div>
-        </div>
-</section>
+   
 
-<section id="resume">
-    <h2>Resume</h2>
-    <a href="your_resume.pdf" download>Download Resume</a>
-</section>
-
-<section id="contact">
-    <h2>Contact</h2>
-    <p class="info">Email:aryashukla682003@gmail.com</p>
-    <p class="info">Phone:123-456-7890</p>
-    <form>
-        <div class="submit">Send</div>
-    </form>
-</section>
-
-<footer>
-    <p>&copy; Arya Shukla,2024. All rights reserved.</p>
-    <p><a href="https://yourwebsite.com">My Website</a></p>
-</footer>
-    
+    <script src="index.js"></script>
 </body>
 </html>
