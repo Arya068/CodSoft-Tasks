@@ -3,36 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic_Calculator</title>
+    <title>Counter</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- <link href="https://fonts.googleapis.com"> -->
+    <script src="index.js" defer></script>
 </head>
 <body>
-        <div class="calculator">
-            <input type="text" value="0" class="display" disabled>
-               <div class="buttons">
-                    <button class="number">7</button>
-                    <button class="number">8</button>
-                    <button class="number">9</button>
-                    <button class="operator">/</button>
-                    <button class="number">4</button>
-                    <button class="number">5</button>
-                    <button class="number">6</button>
-                    <button class="operator">*</button>
-                    <button class="number">1</button> 
-            
-                    <button class="number">2</button>
-                    <button class="number">3</button>
-                    <button class="operator">-</button>
-                    <button class="clear">C</button> 
-            
-                    <button class="number">0</button>
-                    <button class="decimal">.</button>
-                    <button class="operator">+</button>
-                    <button class="equal">=</button>
-                 </div>
-        </div>
-   
+    
+<!-- <p>This is a Counter app</p> -->
+    <div>
+        <nav class="navbar">
+            <h1>Counter</h1>
+           <ul>
+            <li class="nav-items">Home</li>
+            <li class="nav-items">About</li>
+            <li class="nav-items">Contact Us</li>
+           </ul>
+        </nav>
+    </div>
+    <h2 class="count">0</h2>
+    <button class="minusBtn">-</button>
+    <button class="plusBtn">+</button>
+    <div>Increment/Decrement By:<input class="changeBy" type="number" value="1"> 
+    </div>
+    <button class="resetBtn">Reset</button>
+    <!-- <p class="changeBy">Increment/Decrement by:<button>0</button>
+    </p>
+    <button class="reset-btn">Reset</button> -->
+    
 
-    <script src="index.js"></script>
+
+<script src="index.js"></script>
 </body>
 </html>
