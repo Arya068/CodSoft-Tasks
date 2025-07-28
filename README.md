@@ -1,24 +1,24 @@
- 🌐 Landing Page Project
-
-  This is a simple and responsive landing page built using **HTML** and **CSS**. It includes a hero section, about section, features, and a call-to-action (CTA) area.
-
-✨ Features
-
-  - Responsive layout for desktop and mobile
-  - Clean and modern UI design
-  - Structured with semantic HTML5
-  - Styled using CSS (no frameworks)
-  
-  📁 Project Structure
-  CSindex.html - for structuring
-  CSstyles.css -  external css file for styling 
-
-🧠 What I Learned
-  Creating a responsive layout using media queries
-  
-  Improving design thinking and user experience (UX)
-
-🚀 Try It Yourself 
-   Get the repo: https://github.com/Arya068/CodSoft-Task1
+ 🚀 My Responsive Landing Page
+ 
+   A clean and modern landing page built using **HTML**, **CSS**, and a touch of **JavaScript** to add interactivity through a responsive **hamburger menu** .
+ 
+ 
+  📱 What It Includes
+ 
+   - ✨ A stylish and simple layout
+   - 📱 Responsive design
+   - 🍔 A working hamburger menu for navigation
+   - 📄 Semantic HTML structure
+   - 🎨 Custom styling using pure CSS (no frameworks!)
+   
+ 
+   🔧 Tech Used
+ 
+   - HTML5
+   - CSS3 (media queries, flexbox, transitions)
+   - JavaScript (for the hamburger menu toggle)
+ 
+  🚀 Try It Yourself 
+     Get the repo: https://github.com/Arya068/CodSoft-Task1
 
 
